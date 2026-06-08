@@ -19,14 +19,20 @@ enum MyEnum {
 // jwc-26-0607-1130: REPLACED namespace palette label + block labels + icon (quest→ene branding) \/
 // OLD: (no //% block= override — palette showed internal name "quest_Note_1")
 // OLD: //% weight=56 color=#C0C0C0 icon="Q"
-//% block="ene_Comment_1"
+// jwc-26-0608-0430: REPLACED palette label capitalisation ene→EnE \/
+// OLD: //% block="ene_Comment_1"
+//% block="EnE_Comment_1"
+// jwc-26-0608-0430: REPLACED /\
 //% weight=56 color=#C0C0C0 icon="E"
 // jwc-26-0607-1130: REPLACED /\
 namespace quest_Note_1 {
+    // jwc-26-0608-0430: REPLACED tooltip quest→EnE, Note→Comment \/
+    // OLD: quest_Show_String_For_Note_Small_Fn
     /**
-     * quest_Show_String_For_Note_Small_Fn
+     * EnE_Show_String_For_Comment_Small_Fn
      * @param textStrIn string
      */
+    // jwc-26-0608-0430: REPLACED /\
     // '\\' escape character to deactivate special character processing
     // jwc-26-0607-1130: REPLACED block label note\_small → comment\_small \/
     // OLD: //% block="note\\_small: $textStrIn"
@@ -37,10 +43,13 @@ namespace quest_Note_1 {
     export function quest_Show_String_For_Note_Small_Func(textStrIn: string) {
     }
     // * Add space in front of '|' such as ' |' creates reliable 1row spacing
+    // jwc-26-0608-0430: REPLACED tooltip quest→EnE, Note→Comment \/
+    // OLD: quest_Show_String_For_Note_Big_Fn
     /**
-     * quest_Show_String_For_Note_Big_Fn
+     * EnE_Show_String_For_Comment_Big_Fn
      * @param textStrIn string
      */
+    // jwc-26-0608-0430: REPLACED /\
     // '\\' escape character to deactivate special character processing
     // jwc-26-0607-1130: REPLACED block label note\_big → comment\_big \/
     // OLD: //% block=" |note\\_big: $textStrIn |"
@@ -59,14 +68,20 @@ namespace quest_Note_1 {
 // jwc-26-0607-1130: REPLACED namespace palette label + block labels + icon \/
 // OLD: (no //% block= override)
 // OLD: //% weight=55 color=#00FF00 icon="Q"
-//% block="ene_Comment_2"
+// jwc-26-0608-0430: REPLACED palette label capitalisation ene→EnE \/
+// OLD: //% block="ene_Comment_2"
+//% block="EnE_Comment_2"
+// jwc-26-0608-0430: REPLACED /\
 //% weight=55 color=#00FF00 icon="E"
 // jwc-26-0607-1130: REPLACED /\
 namespace quest_Note_2 {
+    // jwc-26-0608-0430: REPLACED tooltip quest→EnE, Note→Comment \/
+    // OLD: quest_Show_String_For_Note_Small_Fn
     /**
-     * quest_Show_String_For_Note_Small_Fn
+     * EnE_Show_String_For_Comment_Small_Fn
      * @param textStrIn string
      */
+    // jwc-26-0608-0430: REPLACED /\
     // '\\' escape character to deactivate special character processing
     // jwc-26-0607-1130: REPLACED block label note\_small → comment\_small \/
     // OLD: //% block="note\\_small: $textStrIn"
@@ -77,10 +92,13 @@ namespace quest_Note_2 {
     export function quest_Show_String_For_Note_Small_Func(textStrIn: string) {
     }
     // * Add space in front of '|' such as ' |' creates reliable 1row spacing
+    // jwc-26-0608-0430: REPLACED tooltip quest→EnE, Note→Comment \/
+    // OLD: quest_Show_String_For_Note_Big_Fn
     /**
-     * quest_Show_String_For_Note_Big_Fn
+     * EnE_Show_String_For_Comment_Big_Fn
      * @param textStrIn string
      */
+    // jwc-26-0608-0430: REPLACED /\
     // '\\' escape character to deactivate special character processing
     // jwc-26-0607-1130: REPLACED block label note\_big → comment\_big \/
     // OLD: //% block=" |note\\_big: $textStrIn |"
@@ -100,14 +118,20 @@ namespace quest_Note_2 {
 // jwc-26-0607-1130: REPLACED namespace palette label + block labels + icon \/
 // OLD: (no //% block= override)
 // OLD: //% weight=54 color=#000080 icon="Q"
-//% block="ene_Comment_3"
+// jwc-26-0608-0430: REPLACED palette label capitalisation ene→EnE \/
+// OLD: //% block="ene_Comment_3"
+//% block="EnE_Comment_3"
+// jwc-26-0608-0430: REPLACED /\
 //% weight=54 color=#000080 icon="E"
 // jwc-26-0607-1130: REPLACED /\
 namespace quest_Note_3 {
+    // jwc-26-0608-0430: REPLACED tooltip quest→EnE, Note→Comment \/
+    // OLD: quest_Show_String_For_Note_Small_Fn
     /**
-     * quest_Show_String_For_Note_Small_Fn
+     * EnE_Show_String_For_Comment_Small_Fn
      * @param textStrIn string
      */
+    // jwc-26-0608-0430: REPLACED /\
     // '\\' escape character to deactivate special character processing
     // jwc-26-0607-1130: REPLACED block label note\_small → comment\_small \/
     // OLD: //% block="note\\_small: $textStrIn"
@@ -118,10 +142,13 @@ namespace quest_Note_3 {
     export function quest_Show_String_For_Note_Small_Func(textStrIn: string) {
     }
     // * Add space in front of '|' such as ' |' creates reliable 1row spacing
+    // jwc-26-0608-0430: REPLACED tooltip quest→EnE, Note→Comment \/
+    // OLD: quest_Show_String_For_Note_Big_Fn
     /**
-     * quest_Show_String_For_Note_Big_Fn
+     * EnE_Show_String_For_Comment_Big_Fn
      * @param textStrIn string
      */
+    // jwc-26-0608-0430: REPLACED /\
     // '\\' escape character to deactivate special character processing
     // jwc-26-0607-1130: REPLACED block label note\_big → comment\_big \/
     // OLD: //% block=" |note\\_big: $textStrIn |"
@@ -143,14 +170,20 @@ namespace quest_Note_3 {
 // jwc-26-0607-1130: REPLACED namespace palette label + block labels + icon \/
 // OLD: (no //% block= override)
 // OLD: //% weight=53 color=#ff7f00 icon="Q"
-//% block="ene_Comment_4"
+// jwc-26-0608-0430: REPLACED palette label capitalisation ene→EnE \/
+// OLD: //% block="ene_Comment_4"
+//% block="EnE_Comment_4"
+// jwc-26-0608-0430: REPLACED /\
 //% weight=53 color=#ff7f00 icon="E"
 // jwc-26-0607-1130: REPLACED /\
 namespace quest_Note_4 {
+    // jwc-26-0608-0430: REPLACED tooltip quest→EnE, Note→Comment \/
+    // OLD: quest_Show_String_For_Note_Small_Fn
     /**
-     * quest_Show_String_For_Note_Small_Fn
+     * EnE_Show_String_For_Comment_Small_Fn
      * @param textStrIn string
      */
+    // jwc-26-0608-0430: REPLACED /\
     // '\\' escape character to deactivate special character processing
     // jwc-26-0607-1130: REPLACED block label note\_small → comment\_small \/
     // OLD: //% block="note\\_small: $textStrIn"
@@ -161,10 +194,13 @@ namespace quest_Note_4 {
     export function quest_Show_String_For_Note_Small_Func(textStrIn: string) {
     }
     // * Add space in front of '|' such as ' |' creates reliable 1row spacing
+    // jwc-26-0608-0430: REPLACED tooltip quest→EnE, Note→Comment \/
+    // OLD: quest_Show_String_For_Note_Big_Fn
     /**
-     * quest_Show_String_For_Note_Big_Fn
+     * EnE_Show_String_For_Comment_Big_Fn
      * @param textStrIn string
      */
+    // jwc-26-0608-0430: REPLACED /\
     // '\\' escape character to deactivate special character processing
     // jwc-26-0607-1130: REPLACED block label note\_big → comment\_big \/
     // OLD: //% block=" |note\\_big: $textStrIn |"
@@ -196,14 +232,20 @@ namespace quest_Note_4 {
 // jwc-26-0607-1130: REPLACED namespace palette label + block labels + icon \/
 // OLD: (no //% block= override)
 // OLD: //% weight=52 color=#FF00FF icon="Q"
-//% block="ene_Comment_5"
+// jwc-26-0608-0430: REPLACED palette label capitalisation ene→EnE \/
+// OLD: //% block="ene_Comment_5"
+//% block="EnE_Comment_5"
+// jwc-26-0608-0430: REPLACED /\
 //% weight=52 color=#FF00FF icon="E"
 // jwc-26-0607-1130: REPLACED /\
 namespace quest_Note_5 {
+    // jwc-26-0608-0430: REPLACED tooltip quest→EnE, Note→Comment \/
+    // OLD: quest_Show_String_For_Note_Small_Fn
     /**
-     * quest_Show_String_For_Note_Small_Fn
+     * EnE_Show_String_For_Comment_Small_Fn
      * @param textStrIn string
      */
+    // jwc-26-0608-0430: REPLACED /\
     // '\\' escape character to deactivate special character processing
     // jwc-26-0607-1130: REPLACED block label note\_small → comment\_small \/
     // OLD: //% block="note\\_small: $textStrIn"
@@ -214,10 +256,13 @@ namespace quest_Note_5 {
     export function quest_Show_String_For_Note_Small_Func(textStrIn: string) {
     }
     // * Add space in front of '|' such as ' |' creates reliable 1row spacing
+    // jwc-26-0608-0430: REPLACED tooltip quest→EnE, Note→Comment \/
+    // OLD: quest_Show_String_For_Note_Big_Fn
     /**
-     * quest_Show_String_For_Note_Big_Fn
+     * EnE_Show_String_For_Comment_Big_Fn
      * @param textStrIn string
      */
+    // jwc-26-0608-0430: REPLACED /\
     // '\\' escape character to deactivate special character processing
     // jwc-26-0607-1130: REPLACED block label note\_big → comment\_big \/
     // OLD: //% block=" |note\\_big: $textStrIn |"
@@ -232,14 +277,20 @@ namespace quest_Note_5 {
 // jwc-26-0607-1130: REPLACED namespace palette label + block labels + icon \/
 // OLD: (no //% block= override)
 // OLD: //% weight=51 color=#000000 icon="Q"
-//% block="ene_Comment_6"
+// jwc-26-0608-0430: REPLACED palette label capitalisation ene→EnE \/
+// OLD: //% block="ene_Comment_6"
+//% block="EnE_Comment_6"
+// jwc-26-0608-0430: REPLACED /\
 //% weight=51 color=#000000 icon="E"
 // jwc-26-0607-1130: REPLACED /\
 namespace quest_Note_6 {
+    // jwc-26-0608-0430: REPLACED tooltip quest→EnE, Note→Comment \/
+    // OLD: quest_Show_String_For_Note_Small_Fn
     /**
-     * quest_Show_String_For_Note_Small_Fn
+     * EnE_Show_String_For_Comment_Small_Fn
      * @param textStrIn string
      */
+    // jwc-26-0608-0430: REPLACED /\
     // '\\' escape character to deactivate special character processing
     // jwc-26-0607-1130: REPLACED block label note\_small → comment\_small \/
     // OLD: //% block="note\\_small: $textStrIn"
@@ -250,10 +301,13 @@ namespace quest_Note_6 {
     export function quest_Show_String_For_Note_Small_Func(textStrIn: string) {
     }
     // * Add space in front of '|' such as ' |' creates reliable 1row spacing
+    // jwc-26-0608-0430: REPLACED tooltip quest→EnE, Note→Comment \/
+    // OLD: quest_Show_String_For_Note_Big_Fn
     /**
-     * quest_Show_String_For_Note_Big_Fn
+     * EnE_Show_String_For_Comment_Big_Fn
      * @param textStrIn string
      */
+    // jwc-26-0608-0430: REPLACED /\
     // '\\' escape character to deactivate special character processing
     // jwc-26-0607-1130: REPLACED block label note\_big → comment\_big \/
     // OLD: //% block=" |note\\_big: $textStrIn |"

@@ -1,6 +1,6 @@
 {
     "name": "25-0805-1750-makecode_microbit-comments-extension--26-0607-1040-ene",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "EnE (Encourage-n-Empower) comment blocks for MakeCode micro:bit",
     "dependencies": {
         "core": "*",
